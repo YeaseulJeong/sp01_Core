@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Bean Configuration File  : bean 설정문서 : bean 객체를 생성하기 위한 주문서  -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+												 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+												 
+    <bean id="dao"  class=" spring.service.model.MemberDAOImpl"></bean>  <!--빈 설정문서는 실체 클래스만 사용한다 impl 객체. 인터페이스는 객체를 만들 수 없으니까 쓸 수 없다 -->
+	
+</beans>
